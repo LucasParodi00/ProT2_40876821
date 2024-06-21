@@ -1,0 +1,140 @@
+CRITICAL - 2024-06-20 19:53:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_message.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 20:50:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 20:51:09 --> ErrorException: include(/header): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\index.php on line 3.
+ 1 APPPATH\Views\front\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/header): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT2_40876821\\app\\Views\\front\\index.php', 3)
+ 2 APPPATH\Views\front\index.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT2_40876821\\app\\Views\\front\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front/index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('front/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 20:51:10 --> ErrorException: include(/header): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\index.php on line 3.
+ 1 APPPATH\Views\front\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/header): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT2_40876821\\app\\Views\\front\\index.php', 3)
+ 2 APPPATH\Views\front\index.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT2_40876821\\app\\Views\\front\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front/index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('front/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 20:51:22 --> ErrorException: include(/front/header): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\index.php on line 3.
+ 1 APPPATH\Views\front\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/front/header): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT2_40876821\\app\\Views\\front\\index.php', 3)
+ 2 APPPATH\Views\front\index.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT2_40876821\\app\\Views\\front\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front/index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('front/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 20:51:23 --> ErrorException: include(/front/header): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\index.php on line 3.
+ 1 APPPATH\Views\front\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/front/header): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT2_40876821\\app\\Views\\front\\index.php', 3)
+ 2 APPPATH\Views\front\index.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT2_40876821\\app\\Views\\front\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front/index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('front/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 20:51:23 --> ErrorException: include(/front/header): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\index.php on line 3.
+ 1 APPPATH\Views\front\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/front/header): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT2_40876821\\app\\Views\\front\\index.php', 3)
+ 2 APPPATH\Views\front\index.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT2_40876821\\app\\Views\\front\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front/index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('front/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 20:51:24 --> ErrorException: include(/front/header): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\index.php on line 3.
+ 1 APPPATH\Views\front\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/front/header): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT2_40876821\\app\\Views\\front\\index.php', 3)
+ 2 APPPATH\Views\front\index.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT2_40876821\\app\\Views\\front\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front/index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('front/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 20:54:57 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: /]
+in APPPATH\Views\front\index.php on line 2.
+ 1 APPPATH\Views\front\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\ProT2_40876821\\app\\Views\\front\\index.php', 2)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT2_40876821\\app\\Views\\front\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front/index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('front/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 21:05:42 --> ParseError: syntax error, unexpected token "echo", expecting "," or ";"
+[Method: GET, Route: /]
+in APPPATH\Views\front\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front/index', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('front/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
